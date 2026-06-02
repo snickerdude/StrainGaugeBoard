@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "990447f7-c22a-4a06-964c-f62285385bfb")
+	(paper "A4")
+	(lib_symbols)
+	(text "large Vin range\ninput to 5V buck converter\n5 to 3.3V LDO for AVDD\n5 to 3.3V LDO for DVDD. Maybe buck if high current required\n"
+		(exclude_from_sim no)
+		(at 122.936 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9326030d-9958-4b6d-90b8-9f7e5b16d2df")
+	)
+	(hierarchical_label "DVDD"
+		(shape output)
+		(at 160.02 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29ec6e89-4df5-4b0d-8a3f-6369b4bf2aaf")
+	)
+	(hierarchical_label "AVDD"
+		(shape output)
+		(at 160.02 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7348c869-98a8-45c2-9f08-d4273be8ce48")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 87.63 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2ba950d-642b-4d50-98a3-fa26ca7e6e6a")
+	)
+)

@@ -632,13 +632,33 @@
         "uuid": "018d4a64-2b15-4803-82bf-0317c9d20445"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "018d4a64-2b15-4803-82bf-0317c9d20445",
       "Root"
+    ],
+    [
+      "965416dc-57c5-471f-ae2a-4dcb68554f9d",
+      "Amp1"
+    ],
+    [
+      "420962f5-373b-497a-ba7d-7fe1c7819d52",
+      "Amp2"
+    ],
+    [
+      "11153338-c253-4005-b6ad-4fae2dd9badf",
+      "Amp3"
+    ],
+    [
+      "3c8d9d36-ee31-4b0c-ae75-bdd7dca36698",
+      "Amp4"
+    ],
+    [
+      "b29e3d54-24cf-47a4-9e74-62e6b105c08a",
+      "PD"
     ]
   ],
   "text_variables": {},
