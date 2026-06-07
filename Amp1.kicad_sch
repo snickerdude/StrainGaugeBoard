@@ -595,7 +595,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -652,7 +652,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -674,7 +674,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -688,148 +688,9 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VDDA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VDDA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDDA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDDA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDDA_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -869,12 +730,6 @@
 		(uuid "3378a09e-7f02-4866-994b-537efa098608")
 	)
 	(junction
-		(at 93.98 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38c0ab74-432a-483b-95ff-dea867aa882a")
-	)
-	(junction
 		(at 153.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -893,6 +748,12 @@
 		(uuid "484a117d-885a-4829-b581-f7b8c2ff01b2")
 	)
 	(junction
+		(at 93.98 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8e7fe1-3cda-45ab-8997-ec8a59b4b61d")
+	)
+	(junction
 		(at 165.1 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -903,12 +764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "828b32a0-b171-4732-865e-8f3860e34e27")
-	)
-	(junction
-		(at 140.97 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c5ee419-27f0-408a-a8cf-102d69bd14c7")
 	)
 	(junction
 		(at 191.77 96.52)
@@ -945,6 +800,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9cdb5a1-f475-4de2-a90b-723f9c2b2b6d")
+	)
+	(no_connect
+		(at 144.78 102.87)
+		(uuid "be04a5b6-c4b9-4e50-a036-ae0671b6cf90")
 	)
 	(wire
 		(pts
@@ -1038,16 +897,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 124.46) (xy 153.67 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f947db1-b833-4efa-b8b7-2f5ecd5daf89")
-	)
-	(wire
-		(pts
 			(xy 138.43 73.66) (xy 138.43 77.47)
 		)
 		(stroke
@@ -1128,26 +977,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b26448f-795e-435a-a0c5-12ac62cf7195")
-	)
-	(wire
-		(pts
-			(xy 132.08 124.46) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d33cec8-ea1e-42ce-a287-8e10ba7d2953")
-	)
-	(wire
-		(pts
 			(xy 191.77 96.52) (xy 200.66 96.52)
 		)
 		(stroke
@@ -1158,23 +987,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 88.9 87.63)
+			(xy 88.9 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44c944f4-dcc3-4121-b36e-5610be07a49b")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 93.98 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4567e406-efa5-4f35-875c-51d462d0a9dd")
 	)
 	(wire
 		(pts
@@ -1208,16 +1027,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 144.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5669b81e-939e-497d-98f3-cd6bd209ac6d")
-	)
-	(wire
-		(pts
 			(xy 113.03 110.49) (xy 113.03 113.03)
 		)
 		(stroke
@@ -1235,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "674d8a70-722b-44a0-9417-ccaf271dfe05")
+	)
+	(wire
+		(pts
+			(xy 93.98 87.63) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67db8935-d1a6-4a65-bec4-c58a4d66e97d")
 	)
 	(wire
 		(pts
@@ -1298,13 +1117,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 140.97 124.46)
+			(xy 93.98 87.63) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "911f0a8c-e040-4ae2-bdef-4952f04293a4")
+		(uuid "89bd59d5-c3da-450e-87dc-9e99e2955711")
 	)
 	(wire
 		(pts
@@ -1498,16 +1317,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 124.46) (xy 153.67 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95bfd71-04f9-42d9-9cf5-096a3bbc4922")
-	)
-	(wire
-		(pts
 			(xy 118.11 100.33) (xy 123.19 100.33)
 		)
 		(stroke
@@ -1538,16 +1347,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 140.97 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f47945c6-7e9e-4642-9a50-436dd3133b67")
-	)
-	(wire
-		(pts
 			(xy 118.11 95.25) (xy 118.11 97.79)
 		)
 		(stroke
@@ -1565,16 +1364,6 @@
 			(type default)
 		)
 		(uuid "fa2715f8-28a8-4848-9d94-4f35daec3a9f")
-	)
-	(wire
-		(pts
-			(xy 140.97 124.46) (xy 139.7 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe98c696-9c4a-4a6c-85a9-bdfae89c682f")
 	)
 	(hierarchical_label "Vout"
 		(shape output)
@@ -1715,6 +1504,96 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 156.21 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3167809e-27c6-4631-bbbb-d332a60d4274")
+		(property "Reference" "#PWR012"
+			(at 156.21 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fc9abf0-22ff-470b-9510-1fd49d664614")
+		)
+		(instances
+			(project "StrainGaugeDAQ"
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 160.02 64.77 90)
 		(unit 1)
@@ -1736,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 160.02 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1827,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 171.704 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,7 +1798,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 170.18 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2084,188 +1963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57ff8bab-d739-423e-a1ab-1886af779ce3")
-		(property "Reference" "#PWR02"
-			(at 93.98 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2339f457-634e-47f2-b9dd-4253a94722d7")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR015")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR022")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 146.05 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "66513e8e-039b-4a89-9e53-4d624ea8c26b")
-		(property "Reference" "R7"
-			(at 146.05 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 146.05 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.304 123.444 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd913542-ffa6-4614-a010-46a5dc675921")
-		)
-		(pin "1"
-			(uuid "8d40aa71-12d3-4dfb-91ec-b5ba2c5d736e")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 99.06 81.28 0)
 		(unit 1)
@@ -2288,7 +1985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 102.87 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,96 +2149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 191.77 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bf263b2-a406-4914-b2ec-1bb22ccecc94")
-		(property "Reference" "#PWR09"
-			(at 191.77 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a5bd20d-50f9-44ce-aed1-1571738b5437")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AddedSymbols:INA351CDSIDSGR")
 		(at 149.86 96.52 0)
 		(unit 1)
@@ -2684,7 +2291,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 146.304 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,8 +2456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 129.54 121.92 0)
+		(lib_id "power:GNDA")
+		(at 93.98 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2859,9 +2466,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af77f1ff-1ba4-444f-8f53-d4a2279472e4")
-		(property "Reference" "#PWR06"
-			(at 129.54 125.73 0)
+		(uuid "93d5b67c-c395-40a1-a666-9a4d1ab38193")
+		(property "Reference" "#PWR015"
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,8 +2478,8 @@
 				)
 			)
 		)
-		(property "Value" "VDDA"
-			(at 129.54 116.84 0)
+		(property "Value" "GND"
+			(at 93.98 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2882,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 121.92 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 121.92 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,8 +2510,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 129.54 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,24 +2522,294 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2388be0-09f1-428f-a2b1-95026bcd5e2f")
+			(uuid "45f126d7-4978-486f-a4fd-6184a025664a")
 		)
 		(instances
 			(project "StrainGaugeDAQ"
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR017")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR010")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR06")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 138.43 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c2d5dad-ff70-463a-8ba2-c09357353e84")
+		(property "Reference" "#PWR013"
+			(at 138.43 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e15200-a868-4bc8-ac37-e7910ff87aca")
+		)
+		(instances
+			(project "StrainGaugeDAQ"
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 177.8 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5652053-b9dd-4f3e-9f91-addaf4bf3831")
+		(property "Reference" "#PWR031"
+			(at 177.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 177.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b62fa50-d1f8-4669-9711-c33606a60396")
+		)
+		(instances
+			(project "StrainGaugeDAQ"
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 191.77 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae0c776c-8988-44f5-8da2-dee55377d985")
+		(property "Reference" "#PWR09"
+			(at 191.77 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9891e5dd-cfc7-40d8-b713-3ced73c3aaba")
+		)
+		(instances
+			(project "StrainGaugeDAQ"
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 92.71 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,188 +2904,6 @@
 				)
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 135.89 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c18d4114-0f61-4af1-b264-10430560d09b")
-		(property "Reference" "R6"
-			(at 135.89 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 135.89 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 136.144 123.444 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 135.89 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5163ba55-0cb4-46d6-b8fc-9e67730682b2")
-		)
-		(pin "1"
-			(uuid "0943c414-39f3-4236-a748-eb980df54d76")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5064dbf-7960-45fc-aa65-0a15997060b9")
-		(property "Reference" "#PWR05"
-			(at 156.21 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cffba21b-cc0f-4cb3-ba86-9f798b69a6b3")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR012")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 113.03 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3319,8 +3014,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d6688755-ad41-45b4-bfa9-87cc47011107")
-		(property "Reference" "#PWR01"
+		(uuid "fbe52983-cdb3-4b76-8253-11c0e93754c2")
+		(property "Reference" "#PWR08"
 			(at 113.03 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3363,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3375,294 +3070,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "d41615e2-2db0-4bdf-897f-5f5eabb26579")
+			(uuid "87aff383-abf8-4cb8-9b39-0b4304e0dc66")
 		)
 		(instances
 			(project "StrainGaugeDAQ"
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR016")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
 					(reference "#PWR023")
 					(unit 1)
 				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
+					(reference "#PWR042")
+					(unit 1)
+				)
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
 					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db88cc15-b99b-41c1-9318-c6757dfeec70")
-		(property "Reference" "#PWR03"
-			(at 177.8 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f247f851-e90b-4809-a4a4-901bcbae33b6")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df95f3f6-171c-455b-98c1-2b379fa47955")
-		(property "Reference" "#PWR07"
-			(at 153.67 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "879e1aed-c698-4b10-80c3-aef46bfcb9f1")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed2063dc-5951-41e1-b554-596608ecfdbd")
-		(property "Reference" "#PWR030"
-			(at 138.43 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27f1c45c-c7c6-47f3-9212-4294f121953f")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/11153338-c253-4005-b6ad-4fae2dd9badf"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/3c8d9d36-ee31-4b0c-ae75-bdd7dca36698"
-					(reference "#PWR033")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/420962f5-373b-497a-ba7d-7fe1c7819d52"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445/965416dc-57c5-471f-ae2a-4dcb68554f9d"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)

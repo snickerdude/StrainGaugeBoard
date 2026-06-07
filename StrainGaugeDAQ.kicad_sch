@@ -1113,171 +1113,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1584,22 +1419,10 @@
 		)
 	)
 	(junction
-		(at 180.34 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1007b0c7-1666-4fd2-9b04-0e8b3a25a21b")
-	)
-	(junction
 		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19a38bb2-cb42-4a75-b818-fcabea836c5c")
-	)
-	(junction
-		(at 190.5 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "549b5517-0988-4b3a-a9aa-172784a34fec")
 	)
 	(junction
 		(at 176.53 77.47)
@@ -1614,22 +1437,28 @@
 		(uuid "579ac4bd-7004-4d71-a318-c9d7f45be26a")
 	)
 	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df31d80-5d6e-4719-97d5-4ff959dc85cd")
+	)
+	(junction
 		(at 175.26 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77f8db0d-c683-4759-af49-4dbf16b0b80a")
 	)
 	(junction
+		(at 177.8 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6af953-1d0c-477e-9db4-c4d3073f1bd1")
+	)
+	(junction
 		(at 176.53 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84006c4a-7a29-49aa-b94d-2aa9a04454ae")
-	)
-	(junction
-		(at 175.26 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85677507-3031-40a3-bd65-938a0e96ca7e")
 	)
 	(junction
 		(at 172.72 72.39)
@@ -1648,6 +1477,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a989de79-5b95-46f6-ae76-0a1d7db7c0c9")
+	)
+	(junction
+		(at 180.34 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e10ca878-de82-4e93-8129-d088d963f9ee")
 	)
 	(no_connect
 		(at 193.04 93.98)
@@ -1672,16 +1507,6 @@
 			(type default)
 		)
 		(uuid "0786b2db-f3f5-4c27-893d-9e566794fcba")
-	)
-	(wire
-		(pts
-			(xy 175.26 130.81) (xy 180.34 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085efebc-103b-4212-b551-5a0c7b7d7c82")
 	)
 	(wire
 		(pts
@@ -1732,16 +1557,6 @@
 			(type default)
 		)
 		(uuid "19040a73-26e5-4550-b150-aea3ad8dbb0c")
-	)
-	(wire
-		(pts
-			(xy 175.26 130.81) (xy 175.26 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae3115d-55be-49b8-b564-d521ec3ceabf")
 	)
 	(wire
 		(pts
@@ -1955,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 119.38) (xy 175.26 130.81)
+			(xy 175.26 119.38) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2155,16 +1970,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 128.27) (xy 180.34 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904b37fb-f4ee-48e3-938c-244d438c4ab9")
-	)
-	(wire
-		(pts
 			(xy 111.76 100.33) (xy 154.94 100.33)
 		)
 		(stroke
@@ -2265,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 77.47) (xy 190.5 80.01)
+			(xy 190.5 77.47) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2315,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca966f97-b943-4384-a1ec-11133036207e")
+	)
+	(wire
+		(pts
 			(xy 44.45 120.65) (xy 60.96 120.65)
 		)
 		(stroke
@@ -2332,16 +2147,6 @@
 			(type default)
 		)
 		(uuid "d15c34ab-f3d5-4703-b440-0a61ac763788")
-	)
-	(wire
-		(pts
-			(xy 180.34 119.38) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3010914-2c4d-4cf3-98ae-0b26b0828220")
 	)
 	(wire
 		(pts
@@ -2798,84 +2603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14611c2c-f0c0-4f94-b9e2-0909e3a25578")
-		(property "Reference" "#PWR045"
-			(at 162.56 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad374db2-004c-4ac2-9c13-115577f10193")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 120.65 180)
 		(unit 1)
@@ -3195,101 +2922,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 180.34 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52f20488-bb80-4bad-ae30-79584336b9ba")
-		(property "Reference" "FB2"
-			(at 184.15 123.2407 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 184.15 125.7807 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 182.118 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey" "445-MPZ1608S102ATA00CT-ND"
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d889f04-28c4-43ef-94ff-14c2c7ddcedd")
-		)
-		(pin "2"
-			(uuid "80090bf1-dfc0-45ba-aba4-6fcd495e927a")
-		)
-		(instances
-			(project "StrainGaugeDAQ"
-				(path "/018d4a64-2b15-4803-82bf-0317c9d20445"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 190.5 80.01 0)
+		(at 190.5 78.74 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3301,7 +2935,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f00a8dd-afc8-4780-90f8-468df63b6427")
 		(property "Reference" "#PWR046"
-			(at 190.5 86.36 0)
+			(at 190.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,7 +2946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 85.09 0)
+			(at 190.5 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,7 +2956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 80.01 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 80.01 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3344,7 +2978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 80.01 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3171,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "6-18V"
 			(at 39.37 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,6 +3710,85 @@
 			(project "StrainGaugeDAQ"
 				(path "/018d4a64-2b15-4803-82bf-0317c9d20445"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5a9616-8301-41aa-a16d-581b840011ff")
+		(property "Reference" "#PWR049"
+			(at 162.56 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afe78c2b-419d-4586-8812-e1fc504fe698")
+		)
+		(instances
+			(project "StrainGaugeDAQ"
+				(path "/018d4a64-2b15-4803-82bf-0317c9d20445"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
