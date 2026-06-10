@@ -2748,6 +2748,17 @@
 				)
 			)
 		)
+		(property "digikey" "13-RC0603FR-1310RLCT-ND"
+			(at 213.36 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a6a9e3a-52c4-49d1-9af9-a2cac63e44ef")
 		)
@@ -2769,7 +2780,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2849,7 +2860,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2987,6 +2998,17 @@
 				)
 			)
 		)
+		(property "digikey" "13-RC0603FR-1310RLCT-ND"
+			(at 213.36 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2e62b3f-2e48-4c4b-9d43-2df83084ee16")
 		)
@@ -3058,6 +3080,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "1292-0603X106M100CT-ND"
+			(at 184.15 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3425,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3530,6 +3563,17 @@
 				)
 			)
 		)
+		(property "digikey" "13-RC0603FR-1310RLCT-ND"
+			(at 213.36 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "64bcd912-a8c6-49f2-8ab5-431605e26b73")
 		)
@@ -3600,6 +3644,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 213.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "13-RC0603FR-1310RLCT-ND"
+			(at 213.36 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3764,6 +3819,17 @@
 				)
 			)
 		)
+		(property "digikey" "311-10.0KHRCT-ND"
+			(at 199.39 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57ba32a9-9855-4b9e-96e4-8eeb16943725")
 		)
@@ -3785,7 +3851,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3934,6 +4000,17 @@
 				)
 			)
 		)
+		(property "digikey" "1292-0603X106M100CT-ND"
+			(at 167.64 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24b16fa5-c802-4406-8037-c467e9949a89")
 		)
@@ -4004,6 +4081,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 213.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "13-RC0603FR-1310RLCT-ND"
+			(at 213.36 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,6 +4260,17 @@
 				)
 			)
 		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 184.15 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89c3c712-d1fb-4b7f-8e66-b28f9005ae1a")
 		)
@@ -4193,7 +4292,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4331,6 +4430,17 @@
 				)
 			)
 		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 167.64 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0d93927-962b-4ef2-9237-edf68b235e67")
 		)
@@ -4352,7 +4462,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

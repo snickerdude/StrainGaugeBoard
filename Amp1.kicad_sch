@@ -1432,7 +1432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "350"
 			(at 120.65 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1466,6 +1466,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "738-RNCF0603DTE348RCT-ND"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1658,6 +1669,17 @@
 				)
 			)
 		)
+		(property "digikey" "311-10.0KHRCT-ND"
+			(at 160.02 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab25a67c-362f-4d18-bf41-05efe499244a")
 		)
@@ -1740,6 +1762,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 171.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 171.45 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,6 +1874,17 @@
 				)
 			)
 		)
+		(property "digikey" "311-10.0KHRCT-ND"
+			(at 170.18 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61e2ea55-7750-4faa-9bfb-1ba1393cf954")
 		)
@@ -1891,7 +1935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 195.58 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,6 +1969,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "1276-1000-1-ND"
 			(at 191.77 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2029,6 +2084,17 @@
 				)
 			)
 		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c01bab58-62c6-4767-a6ac-b60968c44add")
 		)
@@ -2078,7 +2144,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "120"
 			(at 182.88 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2112,6 +2178,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "541-10426-1-ND"
+			(at 182.88 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,6 +2411,17 @@
 				)
 			)
 		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 146.05 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "273e963f-4650-4ce2-a13e-22b4ed7a5957")
 		)
@@ -2384,7 +2472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "120"
 			(at 110.49 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,6 +2506,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "541-10426-1-ND"
 			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2882,6 +2981,17 @@
 				)
 			)
 		)
+		(property "digikey" "1276-1000-1-ND"
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ea6fe33c-1cf7-4cf9-9770-13fb8c459ef9")
 		)
@@ -2932,7 +3042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "350"
 			(at 110.49 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,6 +3076,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "738-RNCF0603DTE348RCT-ND"
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
